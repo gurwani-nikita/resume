@@ -3,77 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+    <style>
+        /* Style for full-screen display */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <h1>Hi, I'm Nikita Gurwani</h1>
-        <p>10+ Years of results-oriented software developer and Engineering Manager with 2+ years of
-experience in leading UPI soundboxes and Card devices teams, which excels at translating complex concepts into
-actionable insights. Loves to solve a good challenge, leveraging an objective approach to find a win-
-win solution. And also a highly skilled Android Developer who possesses a strong background in
-system design and Architecture, project management, and technical design, with a proven track
-record of delivering innovative solutions that meet or exceed customer expectations.</p>
-        <a href="#contact" class="btn">Get in Touch</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>10+ Years of results-oriented software developer and Engineering Manager with 2+ years of
-experience in leading UPI and Card devices teams which excels at translating complex concepts into
-actionable insights. Loves to solve a good challenge, leveraging an objective approach to find a win-
-win solution. And also a highly skilled Android Developer who possesses a strong background in
-system design and Architecture, project management, and technical design, with a proven track
-record of delivering innovative solutions that meet or exceed customer expectations.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project">
-                <img src="project1.png" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of the project.</p>
-            </div>
-            <div class="project">
-                <img src="project2.png" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Description of the project.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <form action="https://example.com/submit" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn">Send</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Nikita Gurwani. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+    <!-- Embed the PDF -->
+    <iframe src="your-resume.pdf"></iframe>
 </body>
 </html>
